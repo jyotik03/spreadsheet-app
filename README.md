@@ -46,20 +46,7 @@ This project is a spreadsheet application built using Next.js for the frontend f
 **Search and Filter:** Use the search bar to locate specific data within the grid.
 
 ## Folder Structure
-|--src/
-|--|--app/
-|--|--|--components/
-|--|--|--|--Cell.js - Component for individual cell rendering.
-|--|--|--|--Grid.js - Component for rendering the grid of cells.
-|--|--|--page.js - Main page component with grid and features.
-|--|--store.js - Zustand store for managing grid state.
-|--jsconfig.json
-|--next.config.mjs
-|--package-lock.json
-|--package.json
-|--postcss.config.js - PostCSS configuration file.
-|--postcss.config.mjs
-|--tailwind.config.js - Tailwind CSS configuration file.
+src/ ├── app/ │ ├── components/ │ │ ├── Cell.js - Component for individual cell rendering. │ │ └── Grid.js - Component for rendering the grid of cells. │ └── page.js - Main page component with grid and features. ├── store.js - Zustand store for managing grid state. ├── jsconfig.json ├── next.config.mjs ├── package-lock.json ├── package.json ├── postcss.config.js - PostCSS configuration file. ├── postcss.config.mjs └── tailwind.config.js - Tailwind CSS configuration file.
 
 
 ## Testing
